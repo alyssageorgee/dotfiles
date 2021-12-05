@@ -11,7 +11,7 @@
 
 [core]
   pager = less -FRSX
-	editor = vim
+	editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
   # editor = '/Applications/Visual Studio Code.app/Contents/MacOS/Electron' -w
 	# editor = '/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl' -n -w
 
@@ -50,8 +50,8 @@
 [branch "master"]
   mergeoptions = --no-edit
 [user]
-	email = luciengeorge95@gmail.com
-	name = Lucien George
+	email = zcemige@ucl.ac.uk
+	name = Alyssa George
 [filter "lfs"]
 	process = git-lfs filter-process
 	required = true
